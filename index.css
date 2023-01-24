@@ -137,7 +137,7 @@ aside .two{
 hr{
     margin-top: 50px;
 }
-.contact-page{
+#contact-page{
     background-color: #EAE4DD;
     width: 100%;
     height: 100vh;
@@ -170,7 +170,7 @@ hr{
 .right{
    width: 40%;
     background-color: #97593070;
-    height: 30vh;
+    height: 40vh;
     margin-top: 100px;
     margin-left: 50px;
 }
@@ -187,4 +187,42 @@ hr{
     border: 2px solid rgb(0, 0, 0,0) ;
     margin-bottom: 20px;
     transition:  .3s;
+    margin-top: 10px;  
+}
+#row {
+  margin: 8px -16px;
+  background-color: #EAE4DD;
+  width: 100%;
+}
+
+
+#row,
+#row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+footer{
+    background-color: #000;
+    color: #EAE4DD;
+    text-align: center;
+    height: 8vh;
+}
+footer p{
+    padding-top: 12px;
 }
